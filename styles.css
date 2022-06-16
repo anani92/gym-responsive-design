@@ -1,0 +1,105 @@
+html {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: beige;
+}
+
+nav {
+    text-align: center;
+    background-color: hsla(0, 10%, 20%, 0.75);
+    padding: 2em;
+    height: 2rem;
+}   
+
+nav ul li {
+    display: inline-block;
+    padding-left: 9.5rem;
+}
+
+nav ul li a {
+    color: #fffa;
+    font-size: 1.75em;
+    font-family: monospace;
+}
+nav a:hover {
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(27, 29, 28);
+    transition: font-size .2s ease-in color .1s ease-in;
+}
+
+.banner {
+    background-image: url(./imgs/Ultimate-6-Day-Gym-Workout-Schedule.jpg);
+    padding: 4em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 15rem;
+}
+
+.banner h2 {
+    font-size: 3rem;
+    color: #fffa;
+    padding: 3rem;
+    text-align: center;
+    opacity: .7;
+    
+    
+}
+
+.banner h4,p,a {
+    color: #fffa;
+}
+
+.imgs {
+    display: flex;
+    align-content: space-around;
+    justify-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.imgs img {
+    margin: 3rem;
+    height: 20rem;
+    width: 30rem;
+    border: .5rem solid rgb(158, 150, 150);
+    border-radius: 1.5rem;
+}
+
+.meeting {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: space-between;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.meeting img {
+    height: 40rem;
+    width: 90%;
+    margin: 0 3rem;
+    
+
+}
+
+.meeting h2 {
+    align-self: center;
+    background-color: #fff;
+}
+
+footer figure {
+    float: left;
+}
+
+footer h3 {
+    clear: left;;
+}
